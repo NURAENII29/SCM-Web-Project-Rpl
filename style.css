@@ -1,0 +1,94 @@
+body {
+    background: #f5e98b;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.title {
+    background: #215f45;
+    color: #fff;
+    padding: 12px 40px;
+    width: fit-content;
+    margin: 0 auto 25px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    width: 360px;
+    background: #b5c86a;
+    padding: 25px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+    border-radius: 12px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.input-group {
+    background: #215f45;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding: 10px 12px;
+}
+
+.icon {
+    color: white;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.input-group input {
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 14px;
+}
+
+.input-group input::placeholder {
+    color: #d3e0d3;
+}
+
+.role-group {
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 0;
+    font-size: 14px;
+    color: #215f45;
+}
+
+.jabatan-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #215f45;
+    color: white;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+}
+
+.jabatan-btn .arrow {
+    font-size: 18px;
+}
+
+.generate-btn {
+    margin-top: 20px;
+    background: #c5d98a;
+    border: none;
+    padding: 10px;
+    width: 60%;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #215f45;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.25);
+}
