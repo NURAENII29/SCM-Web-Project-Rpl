@@ -33,14 +33,26 @@
             <label><input type="radio" name="role"> BPP</label>
         </div>
 
-        <button class="jabatan-btn">
+        <button class="jabatan-btn" onclick="toggleDropdown()">
             Pilih Jabatan
             <span class="arrow">➤</span>
         </button>
 
+        <!-- Dropdown jabatan -->
+        <div id="dropdown" class="dropdown hidden">
+            <p>Seksi Pemasaran</p>
+            <p>Seksi Pembibitan</p>
+        </div>
+
         <button class="generate-btn">Generate</button>
 
     </div>
+
+    <script>
+        function toggleDropdown() {
+            document.getElementById("dropdown").classList.toggle("hidden");
+        }
+    </script>
 
 </body>
 </html>
